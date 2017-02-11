@@ -2,6 +2,7 @@
 $productdis = $_POST['product_description'];
 $list_price = $_POST['list_price'];
 $standard_dis = $_POST['standard_discount'];
+?>
 
 <!DOCTYPE html>
 <html>
