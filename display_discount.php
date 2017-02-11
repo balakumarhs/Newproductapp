@@ -1,7 +1,7 @@
 <?php
 $productdis = $_POST['product_description'];
 $list_price = $_POST['list_price'];
-$standard_dis = $_POST['standard_discount'];
+$discount_percent = $_POST['discount_percent'];
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ $standard_dis = $_POST['standard_discount'];
         <span><?php echo $list_price; ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $standard_dis; ?></span><br>
+        <span><?php echo $discount_percent; ?></span><br>
 
         <label>Discount Amount:</label>
         <span><?php echo ''; ?></span><br>
