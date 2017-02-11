@@ -4,6 +4,7 @@ $list_price = $_POST['list_price'];
 $discount_percent = $_POST['discount_percent'];
 
 $discount_amount = ($list_price * $discount_percent)/100;
+$final_price = $list_price - $discount_amount;
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +30,7 @@ $discount_amount = ($list_price * $discount_percent)/100;
         <span><?php echo $discount_amount; ?></span><br>
 
         <label>Discount Price:</label>
-        <span><?php echo ''; ?></span><br>
+        <span><?php echo $final_price; ?></span><br>
     </main>
 </body>
 </html>
